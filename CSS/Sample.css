@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d7db0be;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+/* Review Styles */
+.review {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review h2 {
+    margin-bottom: 10px;
+}
+
+.review p {
+    margin-bottom: 20px;
+}
+
+.review .rating {
+    color: #ffcc00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
