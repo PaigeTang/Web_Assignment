@@ -56,55 +56,44 @@ a:hover {
 
 /* Header Styles */
 
-
 header {
-    background-color: #333;
-    color: white;
-    text-align: left;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .nature-nester {
-    display: inline-block;
-    font-size: 24px;
-    margin-right: 20px;
-  }
-  
-  .nature-nester a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  
-  .nav-links {
-    list-style-type: none;
-  }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-  }
-
-.logo h1{
-    color: white;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.nature-nester {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 20px;
+}
 
+.nature-nester a {
+  color: white;
+  text-decoration: none;
+}
 
+.nav-links {
+  list-style-type: none;
+}
 
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
 
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
 
-
-
-
+.logo h1 {
+  color: white;
+}
 
 /* Main Styles */
 main {
@@ -141,14 +130,13 @@ main {
   top: 0;
   z-index: 1;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 footer {
   background-color: #333;
   width: 100%;
   height: 300px;
-  padding: 30px 0;
+  padding: 10px 0;
   color: white;
   text-align: center;
 }
@@ -200,6 +188,11 @@ footer {
   align-items: center;
   columns: 3 300px;
 }
+.card-heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .sec {
   display: flex;
   flex-direction: column;
@@ -208,59 +201,58 @@ footer {
 }
 
 .quicklinks li {
-    list-style: none;
-    margin: 10px 0;
-  }
-  
-  .quicklinks a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-  }
-  
-  /* Style for contact information */
-  .info li {
-    list-style: none;
-    margin: 10px 0;
-  }
-  
-  .info a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-  }
-  
-  /* Style for social media links */
-  .scl {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .scl li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  .scl a {
-    text-decoration: none;
-    color: #333;
-    /* Text color for social media links */
-    font-size: 24px;
-    /* Font size for social media links */
-  }
-  
-  .scl a i {
-    font-size: 36px;
-    /* Font size for social media icons */
-    margin-right: 5px;
-    /* Spacing between icons and text */
-  }
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  .container h1{
-    color: black;
-    font-size: 20px;
-  }
-  
+  list-style: none;
+  margin: 10px 0;
+}
+
+.quicklinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* Style for contact information */
+.info li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* Style for social media links */
+.scl {
+  list-style: none;
+  padding: 0;
+}
+
+.scl li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.scl a {
+  text-decoration: none;
+  color: #333;
+  /* Text color for social media links */
+  font-size: 24px;
+  /* Font size for social media links */
+}
+
+.scl a i {
+  font-size: 36px;
+  /* Font size for social media icons */
+  margin-right: 5px;
+  /* Spacing between icons and text */
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.container h1 {
+  color: black;
+  font-size: 20px;
+}

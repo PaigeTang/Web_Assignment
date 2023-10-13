@@ -1,41 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reviews</title>
-    <link herf = "../CSS/Style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review page</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="../Css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-        <div class="nature-nester">
-                <p><h1>NATURE NESTER</a></h1> </p>
+        <div class="logo">
+            <p>
+            <h1>NATURE NESTER</a></h1>
+            </p>
         </div>
 
-            <nav class="nav-links">
-            <li><a href="#">Home</a></li>
+        <nav class="nav-links">
+            <li><a href="Camping_Home.html">Home</a></li>
             <li><a href="equipment.html">Camping Equipment</a></li>
-            <li><a href="furniture.html">Furniture</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="basket.html">Basket</a></li>
+            <li><a href="Funiture.html">Furniture</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="Basket.html">Basket</a></li>
             <li><a href="offers.html">Offers and Packages</a></li>
-    </nav>
-</header>
 
-<section id="basket">
-    <h2>Your Basket</h2>
-    <ul id="product-list">
-        <!-- Product items will be dynamically added here -->
-    </ul>
-    <div id="total-price">
-        Total: $0.00
+        </nav>
+    </header>
+    <div class="card-heading" style="display: flex;justify-content: center;width: 100%;margin: 40px 0;">
+
+        <h1>My Basket</h1>
+
     </div>
-    <button id="checkout">Checkout</button>
-</section>
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../Images/f5.jpg" alt="Product 1">
+                    </td>
+                    <td>$29.99</td>
+                    <td>2</td>
+                    <td>$59.98</td>
+                </tr>
 
-<script src="basket.js"></script>
-</body>
-</html>
+                <tr>
+                    <td>
+                        <img src="../Images/F7.jpg" alt="Product 2">
+                    </td>
+                    <td>$39.99</td>
+                    <td>1</td>
+                    <td>$39.99</td>
+                </tr>
 
+                <tr>
+                    <td>
+                        <img src="../Images/F7.jpg" alt="Product 2">
+                    </td>
+                    <td>$39.99</td>
+                    <td>1</td>
+                    <td>$39.99</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="../Images/F7.jpg" alt="Product 2">
+                    </td>
+                    <td>$39.99</td>
+                    <td>1</td>
+                    <td>$39.99</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="../Images/F7.jpg" alt="Product 2">
+                    </td>
+                    <td>$39.99</td>
+                    <td>1</td>
+                    <td>$39.99</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h1>Order Summary</h1><br>
+            <div class="order-row">
+                <p>Total price </p>
+                <p>- 1000$</p>
+            </div>
+            <div class="order-row">
+                <p>Total items </p>
+                <p>- 1000$</p>
+            </div>
+            <div class="order-row">
+                <p>Discount </p>
+                <p>- 1000$</p>
+            </div>
+            <div class="order-row">
+                <p>Grand total </p>
+                <p>- 1000$</p>
+            </div>
+            <button>Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="sec quicklinks">
+                <ul>
+                    <li>
+                        <h1>Company</h1>
+                    </li>
+                    <p>About us </p>
+                    <p>Our Services </p>
+                    <p>Privacy Policy</p>
+                    <p>Others</p>
+                </ul>
+
+            </div>
+            <div class="sec quicklinks">
+                <ul>
+                    <li>
+                        <h1>Gadgets</h1>
+                    </li>
+                    <p>Equipment </p>
+                    <p>Furniture </p>
+                    <p>Tent</p>
+                    <p>Backpacks</p>
+                    <p>Tools</p>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <ul>
+                    <li>
+                        <h1>Support
+                    </li>
+                    </h1>
+                    <p>FAQ </p>
+                    <p>Shipping </p>
+                    <p>Returns</p>
+                    <p>Order status </p>
+                    <p>Payment Methods </p>
+
+                </ul>
+            </div>
+            <div class="sec">
+                <ul class="info">
+                    <li>
+                        <h1>Contact Us
+                    </li>
+                    </h1>
+                    <ul class="scl">
+                        <li><a href="https://www.facebook.com"><img style="width: 50px;" src="../Images/Facebook.png"
+                                    alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com"><img style="width: 50px;" src="../Images/insta.jpg"
+                                    alt="Instagram"></a></li>
+                        <li><a href="https://www.twitter.com"><img style="width: 50px;" src="../Images/twitter.png"
+                                    alt="Twitter"></a></li>
+                        <li><a href="https://www.pinterest.com"><img style="width: 50px;" src="../Images/Pinterest.png"
+                                    alt="Pinterest"></a></li>
+
+                    </ul>
+            </div>
+    </footer>
+
+    </div>
+
+    <script src="../Javascript/script.js"></script>
 </body>
+
 </html>
